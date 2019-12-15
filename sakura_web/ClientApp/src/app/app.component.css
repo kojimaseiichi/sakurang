@@ -1,0 +1,38 @@
+body {
+    min-height: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+app-top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+
+    background-color: violet;
+}
+
+.main-contents {
+    position: absolute;
+    top: 65px;
+    right: 0;
+    bottom: 60px;
+    left: 0;
+    overflow: auto;
+}
+
+app-bottom-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+
+    background-color: rgb(50,50,50);
+}
